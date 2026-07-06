@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_dashboard"
+        android:title="Tổng quan"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add_meal"
+        android:title="Thêm món"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_history"
+        android:title="Lịch sử"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_chart"
+        android:title="Biểu đồ"
+        android:icon="@android:drawable/ic_menu_view"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Đăng xuất"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="never" />
+
+</menu>
